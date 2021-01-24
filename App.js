@@ -14,13 +14,14 @@ import {
   View,
   Text,
   StatusBar,
+  TextInput
 } from 'react-native';
 import Routes from './Routes'
 
 function App() {
   return (
     <SafeAreaView style={styles.container}>
-    <Routes />
+      <Routes />
     </SafeAreaView>
   );
 }

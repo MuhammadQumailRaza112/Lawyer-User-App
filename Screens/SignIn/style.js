@@ -64,10 +64,56 @@ const styles = StyleSheet.create({
     appVerText: {
         fontFamily: "Poppins-Regular", 
         fontSize: 10, 
-        paddingTop: 10,
+        paddingTop: 20,
         color: '#7F7F7F', 
         textAlign: 'center'  
+    },
+    signUpVerText: {
+        fontFamily: "Poppins-Regular", 
+        fontSize: 12, 
+        paddingTop: 20,
+        fontWeight:'bold',
+        color: '#FF97B5', 
+        textAlign: 'center'  
+    },
+    updateModalMainView: {
+        justifyContent: 'center', 
+        alignItems: 'center'
+    },
+    updateModalView: {
+        height: 180, 
+        width: '90%', 
+        borderRadius: 10, 
+        backgroundColor: 'white', 
+        elevation: 3, 
+        paddingHorizontal: 10,
+        justifyContent: 'center', 
+        alignItems: 'center'
+    },
+    updateModalText: {
+        fontFamily: 'Poppins-Medium', 
+        fontSize: 13, 
+        textAlign: 'center',
+        lineHeight: 17, 
+        color: 'rgba(0,0,0,0.8)'
+    },
+    updateModalBtn: {
+        width: "70%", 
+        justifyContent: "center", 
+        alignItems: "center", 
+        backgroundColor: "#F36533", 
+        marginTop: 25, 
+        height: 40, 
+        borderRadius: 6,
+    },
+    updateModalBtnText: {
+        fontFamily: "Poppins-SemiBold", 
+        fontSize: 16, 
+        lineHeight: 26, 
+        color: "white", 
+        textAlign: "center"
     }
+    
 })
 
 export default styles
